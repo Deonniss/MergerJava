@@ -22,7 +22,7 @@ public class FileReaderLinerTest {
     private static String outputFileString;
 
     @BeforeClass
-    public static void be() {
+    public static void init() {
         options = new Options();
 
         filesInteger = new ArrayList<>();

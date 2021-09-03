@@ -9,6 +9,9 @@
     <list default="true" id="8f78e5c9-bb1f-4fd7-9a8e-a06d4ff6114e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="38" column="115" selection-start-line="38" selection-start-column="115" selection-end-line="38" selection-end-column="115" />
+            <state relative-caret-position="150">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +57,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -126,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -138,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,48 +168,16 @@
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="MergerJava_jar" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/testResources/str" />
@@ -320,7 +293,8 @@
       <workItem from="1630583112527" duration="160000" />
       <workItem from="1630585801580" duration="6343000" />
       <workItem from="1630649679270" duration="6437000" />
-      <workItem from="1630666098736" duration="7631000" />
+      <workItem from="1630666098736" duration="8276000" />
+      <workItem from="1630679286580" duration="61000" />
     </task>
     <servers />
   </component>
@@ -357,7 +331,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44424000" />
+    <option name="totallyTimeSpent" value="45130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,8 +344,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -588,16 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SampleCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SampleCompare.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ParseIntTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -645,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="115" selection-start-line="38" selection-start-column="115" selection-end-line="38" selection-end-column="115" />
+        <state relative-caret-position="150">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
