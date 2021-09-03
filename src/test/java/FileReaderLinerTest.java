@@ -51,7 +51,7 @@ public class FileReaderLinerTest {
         options.setOutputFile(outputFileInteger);
         fileReaderLiner = new FileReaderLiner(options);
         fileReaderLiner.readAndSortAndMergeFiles(filesInteger);
-        Assert.assertTrue(file—ompare(options.getOutputFile(), expectedIntegerAsc));
+        Assert.assertTrue(compareFile(options.getOutputFile(), expectedIntegerAsc));
     }
 
     @Test
@@ -61,7 +61,7 @@ public class FileReaderLinerTest {
         options.setOutputFile(outputFileInteger);
         fileReaderLiner = new FileReaderLiner(options);
         fileReaderLiner.readAndSortAndMergeFiles(filesInteger);
-        Assert.assertTrue(file—ompare(options.getOutputFile(), expectedIntegerDesc));
+        Assert.assertTrue(compareFile(options.getOutputFile(), expectedIntegerDesc));
     }
 
     @Test
@@ -71,7 +71,7 @@ public class FileReaderLinerTest {
         options.setOutputFile(outputFileString);
         fileReaderLiner = new FileReaderLiner(options);
         fileReaderLiner.readAndSortAndMergeFiles(filesString);
-        Assert.assertTrue(file—ompare(options.getOutputFile(), expectedStringAsc));
+        Assert.assertTrue(compareFile(options.getOutputFile(), expectedStringAsc));
     }
 
     @Test
@@ -81,10 +81,10 @@ public class FileReaderLinerTest {
         options.setOutputFile(outputFileString);
         fileReaderLiner = new FileReaderLiner(options);
         fileReaderLiner.readAndSortAndMergeFiles(filesString);
-        Assert.assertTrue(file—ompare(options.getOutputFile(), expectedStringDesc));
+        Assert.assertTrue(compareFile(options.getOutputFile(), expectedStringDesc));
     }
 
-    private boolean file—ompare(String file, String expected) throws IOException {
+    private boolean compareFile(String file, String expected) throws IOException {
 
         try(BufferedInputStream fis1 = new BufferedInputStream(new FileInputStream(file));
             BufferedInputStream fis2 = new BufferedInputStream(new FileInputStream(expected))) {
@@ -96,7 +96,7 @@ public class FileReaderLinerTest {
                     return false;
                 }
             }
-            while (b1 != -1 && b2 != -1);
+            while (b1 != -1);
         }
         return true;
     }

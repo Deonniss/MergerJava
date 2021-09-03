@@ -29,7 +29,6 @@ public class FileReaderLiner {
      * - Читает из входных файлов (построчно)
      * - Записывает наименьшее значение
      * @param fileList    - Список фходных файлов
-     * @throws IOException
      */
     public void readAndSortAndMergeFiles(List<File> fileList) throws IOException {
 
@@ -119,7 +118,6 @@ public class FileReaderLiner {
     /**
      * Метод reverseFile - выполняет "переворот" файла при сортировки по убыванию (-d)
      * @param outputFile   - имя выходного файла
-     * @throws IOException
      */
     private void reverseFile(File outputFile) throws IOException {
 
@@ -133,7 +131,6 @@ public class FileReaderLiner {
                 printWriter.println(ch);
                 ch = fr.readLine();
             }
-
         }
     }
 }

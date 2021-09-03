@@ -24,7 +24,6 @@ public class ParserInt {
      * Метод isDigit - проверяет строку на число
      * @param s - String значение, которое проходит проверку на число
      * @return boolean
-     * @throws NumberFormatException
      */
     private static boolean isDigit(String s) throws NumberFormatException {
         try {

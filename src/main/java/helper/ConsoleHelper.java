@@ -63,6 +63,5 @@ public class ConsoleHelper {
 
         FileReaderLiner liner = new FileReaderLiner(options);
         liner.readAndSortAndMergeFiles(listInputFile);
-
     }
 }

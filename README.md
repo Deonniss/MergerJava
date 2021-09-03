@@ -22,7 +22,7 @@
 
 Скачать jar файл из папки 
 
-MergerJava/MergerJava/out/artifacts/MergerJava_jar/MergerJava.jar
+MergerJava/out/artifacts/MergerJava_jar/MergerJava.jar
 
 Параметры программы задаются при запуске через аргументы командной строки, ПО ПОРЯДКУ:
 

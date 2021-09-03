@@ -6,7 +6,7 @@ public class ParseIntTest {
 
     @Test
     public void parseStringToInteger() {
-        Assert.assertTrue(ParserInt.parseInteger("123") == 123);
+        Assert.assertEquals(123, (int) ParserInt.parseInteger("123"));
     }
 
     @Test(expected = NumberFormatException.class)
