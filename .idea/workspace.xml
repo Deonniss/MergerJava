@@ -10,17 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAOImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../genBigFile/genBigFile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comparators/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comparators/MyComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/option/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/option/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/int/in1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/int/in2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/int/in3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/int/out.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,7 +23,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +118,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-291" />
     <option name="y" value="-20" />
     <option name="width" value="1936" />
@@ -152,6 +154,13 @@
             <path>
               <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="MergerJava_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -166,6 +175,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fileHadler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +329,7 @@
       <workItem from="1630666098736" duration="8276000" />
       <workItem from="1630679286580" duration="61000" />
       <workItem from="1630679524349" duration="725000" />
-      <workItem from="1630725184810" duration="3396000" />
+      <workItem from="1630725184810" duration="4246000" />
     </task>
     <servers />
   </component>
@@ -349,7 +366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49251000" />
+    <option name="totallyTimeSpent" value="50101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,6 +379,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -603,16 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -662,6 +670,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
