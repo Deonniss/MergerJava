@@ -62,40 +62,13 @@ public class FileReaderLiner {
             String nextFileLine;
 
             while (bufferedReaders.size() != 0) {
-                nextIndex = 0;
-                nextFileLine = tempLines.get(0);
-                String nt, nf;
 
-                for (int i = 0; i < bufferedReaders.size(); i++) {
+                nextIndex = sort(tempLines);
+                nextFileLine = tempLines.get(nextIndex);
 
-                    nf = nextFileLine;
-                    nt = tempLines.get(i);
-
-                    if (options.getDataType().equalsIgnoreCase("-i")) {
-                        try {
-                            Integer o1 = ParserInt.parseInteger(nf);
-                            Integer o2 = ParserInt.parseInteger(nt);
-
-                            if (MyComparator.compare(o1, o2) > 0) {
-                                nextIndex = i;
-                                nextFileLine = tempLines.get(i);
-                            }
-                        } catch (NumberFormatException ignored) {
-                        }
-
-                    } else {
-
-                        if (MyComparator.compare(nf, nt) > 0) {
-                            nextIndex = i;
-                            nextFileLine = tempLines.get(i);
-                        }
-                    }
-
-                }
                 printWriter.println(nextFileLine);
 
                 currentLine = bufferedReaders.get(nextIndex).readLine();
-
 
                 if (currentLine != null) {
                     tempLines.set(nextIndex, currentLine);
@@ -114,6 +87,42 @@ public class FileReaderLiner {
             }
         }
     }
+
+    private int sort(List<String> tempLines) {
+
+        String nf, nt;
+        int nextIndex = 0;
+        String nextFileLine = tempLines.get(0);
+
+        for (int i = 0; i < tempLines.size(); i++) {
+
+            nf = nextFileLine;
+            nt = tempLines.get(i);
+
+            if (options.getDataType().equalsIgnoreCase("-i")) {
+                try {
+                    Integer o1 = ParserInt.parseInteger(nf);
+                    Integer o2 = ParserInt.parseInteger(nt);
+
+                    if (MyComparator.compare(o1, o2) > 0) {
+                        nextIndex = i;
+                        nextFileLine = tempLines.get(i);
+                    }
+                } catch (NumberFormatException ignored) {
+                }
+
+            } else {
+
+                if (MyComparator.compare(nf, nt) > 0) {
+                    nextIndex = i;
+                    nextFileLine = tempLines.get(i);
+                }
+            }
+
+        }
+        return nextIndex;
+    }
+
 
     /**
      * Метод reverseFile - выполняет "переворот" файла при сортировки по убыванию (-d)
