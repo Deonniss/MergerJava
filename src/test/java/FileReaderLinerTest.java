@@ -26,22 +26,22 @@ public class FileReaderLinerTest {
         options = new Options();
 
         filesInteger = new ArrayList<>();
-        filesInteger.add(new File("C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\int\\in1.txt"));
-        filesInteger.add(new File("C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\int\\in2.txt"));
-        filesInteger.add(new File("C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\int\\in3.txt"));
+        filesInteger.add(new File("src\\main\\testResources\\int\\in1.txt"));
+        filesInteger.add(new File("src\\main\\testResources\\int\\in2.txt"));
+        filesInteger.add(new File("src\\main\\testResources\\int\\in3.txt"));
 
         filesString = new ArrayList<>();
-        filesString.add(new File("C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\str\\st1.txt"));
-        filesString.add(new File("C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\str\\st2.txt"));
-        filesString.add(new File("C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\str\\st3.txt"));
+        filesString.add(new File("src\\main\\testResources\\str\\st1.txt"));
+        filesString.add(new File("src\\main\\testResources\\str\\st2.txt"));
+        filesString.add(new File("src\\main\\testResources\\str\\st3.txt"));
 
-        expectedIntegerAsc = "C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\int\\expectedIntegerAsc.txt";
-        expectedIntegerDesc = "C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\int\\expectedIntegerDesc.txt";
-        expectedStringAsc = "C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\str\\expectedStringAsc.txt";
-        expectedStringDesc = "C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\str\\expectedStringDesc.txt";
+        expectedIntegerAsc = "src\\main\\testResources\\int\\expectedIntegerAsc.txt";
+        expectedIntegerDesc = "src\\main\\testResources\\int\\expectedIntegerDesc.txt";
+        expectedStringAsc = "src\\main\\testResources\\str\\expectedStringAsc.txt";
+        expectedStringDesc = "src\\main\\testResources\\str\\expectedStringDesc.txt";
 
-        outputFileInteger = "C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\int\\outI.txt";
-        outputFileString = "C:\\PROGRAMMING\\project\\MergerJava\\src\\main\\testResources\\str\\outS.txt";
+        outputFileInteger = "src\\main\\testResources\\int\\outI.txt";
+        outputFileString = "src\\main\\testResources\\str\\outS.txt";
     }
 
     @Test
