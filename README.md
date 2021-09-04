@@ -30,9 +30,11 @@ MergerJava/out/artifacts/MergerJava_jar/MergerJava.jar
 2. тип данных (-s или -i), обязательный;
 3. имя выходного файла, обязательное;
 4. остальные параметры – имена входных файлов, не менее одного.
+
 Примеры запуска из командной строки для Windows/Linux:
-java -jar MergerJava.jar -a -i out.txt in.txt (для целых чисел по возрастанию)
-java -jar MergerJava.jar -s out.txt in1.txt in2.txt in3.txt (для строк по возрастанию)
-java -jar MergerJava.jar -d -s out.txt in1.txt in2.txt (для строк по убыванию)
+
+* java -jar MergerJava.jar -a -i out.txt in.txt (для целых чисел по возрастанию)
+* java -jar MergerJava.jar -s out.txt in1.txt in2.txt in3.txt (для строк по возрастанию)
+* java -jar MergerJava.jar -d -s out.txt in1.txt in2.txt (для строк по убыванию)
 
 # Java 8
