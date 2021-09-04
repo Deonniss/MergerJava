@@ -1,11 +1,11 @@
 a
-a
-abc
 b
-b
-ba
 c
-ccccc
 d
+abc
 def
 gh
+a
+b
+ba
+ccccc

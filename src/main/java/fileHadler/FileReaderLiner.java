@@ -33,11 +33,7 @@ public class FileReaderLiner {
 
         List<BufferedReader> bufferedReaders = new ArrayList<>();
         List<String> tempLines = new ArrayList<>();
-        File outputFile = new File(options.getOutputFile());
-
-        if (options.getSortingMode().equalsIgnoreCase("-d")) {
-            outputFile = new File("temp.txt");
-        }
+        File outputFile = generateOutputFile();
 
         BufferedReader bufferedReader;
         FileReader fileReader;
@@ -55,13 +51,10 @@ public class FileReaderLiner {
         try (FileWriter fileWriter = new FileWriter(outputFile);
              PrintWriter printWriter = new PrintWriter(fileWriter)) {
 
-            int nextIndex;
-            String nextFileLine;
-
             while (bufferedReaders.size() != 0) {
 
-                nextIndex = sort(tempLines);
-                nextFileLine = tempLines.get(nextIndex);
+                int nextIndex = sort(tempLines);
+                String nextFileLine = tempLines.get(nextIndex);
                 printWriter.println(nextFileLine);
                 currentLine = bufferedReaders.get(nextIndex).readLine();
 
@@ -81,6 +74,12 @@ public class FileReaderLiner {
         }
     }
 
+    private File generateOutputFile() {
+        return options.getSortingMode().equalsIgnoreCase("-d")
+                ? new File("temp.txt")
+                : new File(options.getOutputFile());
+    }
+
     /**
      * sort method
      * - searches for a value that satisfies sort mode and returns its index
@@ -89,14 +88,13 @@ public class FileReaderLiner {
      */
     private int sort(List<String> tempLines) {
 
-        String nf, nt;
         int nextIndex = 0;
         String nextFileLine = tempLines.get(0);
 
         for (int i = 0; i < tempLines.size(); i++) {
 
-            nf = nextFileLine;
-            nt = tempLines.get(i);
+            String nf = nextFileLine;
+            String nt = tempLines.get(i);
 
             if (options.getDataType().equalsIgnoreCase("-i")) {
                 try {
