@@ -9,8 +9,8 @@
     <list default="true" id="8f78e5c9-bb1f-4fd7-9a8e-a06d4ff6114e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConsoleHelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConsoleHelperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MergerJava_jar/MergerJava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +24,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,13 +102,13 @@
         <option value="$PROJECT_DIR$/src/main/testResources/str/expectedStringDesc.txt" />
         <option value="$PROJECT_DIR$/src/test/java/MyComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParseIntTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/helper/Messenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConsoleHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" />
       </list>
     </option>
   </component>
@@ -117,9 +130,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2155" />
+    <option name="y" value="-23" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -168,6 +181,49 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fileHadler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="int" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +235,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/testResources/str" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/MergerJava_jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -194,17 +250,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\str" />
-      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\int" />
-      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources" />
-      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources\int" />
-      <recent name="C:\PROGRAMMING\project\MergerJava\out\artifacts\MergerJava_jar" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\str" />
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources\int" />
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROGRAMMING\project\MergerJava\out\artifacts\MergerJava_jar" />
+      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\str" />
+      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\int" />
+      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources" />
+      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources\int" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsoleHelperTest">
+  <component name="RunManager" selected="JUnit.All in MergerJava">
     <configuration name="All in MergerJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MergerJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -267,10 +323,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in MergerJava" />
         <item itemvalue="JUnit.ConsoleHelperTest" />
         <item itemvalue="JUnit.FileReaderLinerTest" />
         <item itemvalue="JUnit.FileReaderLinerTest.sortStringDescendingOrder" />
-        <item itemvalue="JUnit.All in MergerJava" />
         <item itemvalue="JUnit.MyComparatorTest" />
       </list>
     </recent_temporary>
@@ -293,29 +349,11 @@
       <workItem from="1630666098736" duration="8276000" />
       <workItem from="1630679286580" duration="61000" />
       <workItem from="1630679524349" duration="725000" />
-      <workItem from="1630725184810" duration="1143000" />
+      <workItem from="1630725184810" duration="2207000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyComparatorTest_compareString - 2021.09.03 at 21h 09m 04s.xml">
-      <configuration name="MyComparatorTest.compareString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyComparatorTest_compareInteger - 2021.09.03 at 21h 12m 04s.xml">
-      <configuration name="MyComparatorTest.compareInteger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyComparatorTest - 2021.09.03 at 21h 12m 13s.xml">
-      <configuration name="MyComparatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_MergerJava - 2021.09.03 at 21h 14m 11s.xml">
-      <configuration name="All in MergerJava" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_MergerJava - 2021.09.03 at 21h 15m 04s.xml">
-      <configuration name="All in MergerJava" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 17m 24s.xml">
-      <configuration name="All in MergerJava" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FileReaderLinerTest_sortStringDescendingOrder - 2021.09.04 at 10h 26m 28s.xml">
       <configuration name="FileReaderLinerTest.sortStringDescendingOrder" configurationId="JUnit" />
     </history-entry>
@@ -328,9 +366,27 @@
     <history-entry file="ConsoleHelperTest - 2021.09.04 at 10h 30m 23s.xml">
       <configuration name="ConsoleHelperTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 45m 11s.xml">
+      <configuration name="All in MergerJava" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 45m 24s.xml">
+      <configuration name="All in MergerJava" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 45m 28s.xml">
+      <configuration name="All in MergerJava" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 45m 39s.xml">
+      <configuration name="All in MergerJava" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 45m 58s.xml">
+      <configuration name="All in MergerJava" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MergerJava - 2021.09.04 at 10h 49m 35s.xml">
+      <configuration name="All in MergerJava" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46998000" />
+    <option name="totallyTimeSpent" value="48062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,7 +398,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -353,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.2751896" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.2751896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33044422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,7 +445,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/str/in3.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/str/in4.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/int/t4.txt" />
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in1.txt" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/t4.txt" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/s1.txt" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/s5.txt" />
@@ -531,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -619,6 +665,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParseIntTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -627,6 +676,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
