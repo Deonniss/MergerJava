@@ -9,8 +9,18 @@
     <list default="true" id="8f78e5c9-bb1f-4fd7-9a8e-a06d4ff6114e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../REST_spring/src/main/java/com/golovin/spring/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MergerJava_jar/MergerJava.jar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../genBigFile/genBigFile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparators/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comparators/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/option/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/option/Options.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/int/in1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/int/in2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/int/in3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/int/out.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +34,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,18 +71,13 @@
         <option value="$PROJECT_DIR$/src/main/java/fileHadler/ReverseLineInputStream.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/out.txt" />
-        <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/in1.txt" />
-        <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/in3.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/str/in1.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/str/in2.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/str/in3.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/str/in4.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/option/Options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/comparators/MyComparator.java" />
         <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/t1.txt" />
         <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/t2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/helper/ErrorMessages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/int/in1.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/int/in2.txt" />
@@ -102,13 +94,18 @@
         <option value="$PROJECT_DIR$/src/main/testResources/str/expectedStringDesc.txt" />
         <option value="$PROJECT_DIR$/src/test/java/MyComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParseIntTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/helper/Messenger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConsoleHelperTest.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/in1.txt" />
+        <option value="$PROJECT_DIR$/out/artifacts/MergerJava_jar/in3.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/comparators/MyComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java" />
         <option value="$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/option/Options.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/ParserInt.java" />
       </list>
     </option>
   </component>
@@ -119,20 +116,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/artifacts/MergerJava_jar.xml" />
-        <option value="$PROJECT_DIR$/../genBigFile/genBigFile.iml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2155" />
-    <option name="y" value="-23" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-291" />
+    <option name="y" value="-20" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -166,13 +152,6 @@
             <path>
               <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="MergerJava_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,23 +172,7 @@
               <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fileHadler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MergerJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="int" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MergerJava" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +198,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/MergerJava_jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/int" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -256,11 +219,11 @@
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources\int" />
       <recent name="C:\PROGRAMMING\project\MergerJava\out\artifacts\MergerJava_jar" />
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\str" />
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources\int" />
       <recent name="C:\PROGRAMMING\project\MergerJava\src\main\testResources" />
-      <recent name="C:\PROGRAMMING\project\MergerJava\src\main\resources\int" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,7 +312,7 @@
       <workItem from="1630666098736" duration="8276000" />
       <workItem from="1630679286580" duration="61000" />
       <workItem from="1630679524349" duration="725000" />
-      <workItem from="1630725184810" duration="2207000" />
+      <workItem from="1630725184810" duration="3396000" />
     </task>
     <servers />
   </component>
@@ -386,7 +349,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48062000" />
+    <option name="totallyTimeSpent" value="49251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,8 +361,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,8 +398,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in2.txt" />
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in3.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/int/t1.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/int/t2.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/str/in1.txt" />
@@ -455,13 +415,6 @@
     <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/out1.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/int/out.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/int/in1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/int/in2.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,17 +505,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/SampleCompare.java" />
     <entry file="file://$PROJECT_DIR$/-ppp" />
     <entry file="file://$PROJECT_DIR$/out.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/comparators/MyComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -580,58 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helper/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/option/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ParserInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ConsoleHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -639,16 +529,6 @@
           <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1279">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -665,9 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParseIntTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -680,10 +557,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/MergerJava_jar/in1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/int/in1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparators/MyComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/NotAllValuesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fileHadler/FileReaderLiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        <state relative-caret-position="500">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helper/ConsoleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helper/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileReaderLinerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parser/ParserInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/option/Options.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

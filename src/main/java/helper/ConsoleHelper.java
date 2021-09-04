@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Класс ConsoleHelper - обрабатывает команду поступающую программе
- * Options options            - Класс опций
- * String[] args              - Опции, которые задал пользователь
- * List<File> listInputFile   - Список входных файлов
+ * ConsoleHelper class - processes the command received by the program
+ * Options options          - Class of options
+ * String[] args            - Options specified by the user
+ * List<File> listInputFile - List of input files
  */
 public class ConsoleHelper {
 
@@ -28,7 +28,7 @@ public class ConsoleHelper {
     }
 
     /**
-     * Метод execute - выполняет анализ команды
+     * execute method - performs command analysis
      */
     public void execute() throws IOException {
 

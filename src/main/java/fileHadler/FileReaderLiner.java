@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Класс FileReaderLiner - выполняет чтение из входных файлов,
- * а также запись отвортированных данных в выходной файл
+ * FileReaderLiner class - performs reading from input files,
+ * as well as writing the sorted data to the output file
  */
 public class FileReaderLiner {
 
@@ -23,18 +23,18 @@ public class FileReaderLiner {
         this.options = options;
     }
 
-
     /**
-     * Метод readAndSortAndMergeFiles
-     * - Читает из входных файлов (построчно)
-     * - Записывает наименьшее значение
-     * @param fileList    - Список фходных файлов
+     * readAndSortAndMergeFiles method
+     * - Reads from input files (line by line)
+     * - Writes the smallest value
+     * @param fileList - List of output files
      */
     public void readAndSortAndMergeFiles(List<File> fileList) throws IOException {
 
         List<BufferedReader> bufferedReaders = new ArrayList<>();
         List<String> tempLines = new ArrayList<>();
         File outputFile = new File(options.getOutputFile());
+
         if (options.getSortingMode().equalsIgnoreCase("-d")) {
             outputFile = new File("temp.txt");
         }
@@ -43,17 +43,14 @@ public class FileReaderLiner {
         FileReader fileReader;
         String currentLine;
 
-
         for (int i = 0; i < fileList.size(); i++) {
 
             fileReader = new FileReader(fileList.get(i));
             bufferedReader = new BufferedReader(fileReader);
             bufferedReaders.add(bufferedReader);
-
             currentLine = bufferedReaders.get(i).readLine();
             tempLines.add(currentLine);
         }
-
 
         try (FileWriter fileWriter = new FileWriter(outputFile);
              PrintWriter printWriter = new PrintWriter(fileWriter)) {
@@ -65,9 +62,7 @@ public class FileReaderLiner {
 
                 nextIndex = sort(tempLines);
                 nextFileLine = tempLines.get(nextIndex);
-
                 printWriter.println(nextFileLine);
-
                 currentLine = bufferedReaders.get(nextIndex).readLine();
 
                 if (currentLine != null) {
@@ -75,11 +70,9 @@ public class FileReaderLiner {
                 } else {
                     tempLines.remove(nextIndex);
                     bufferedReaders.get(nextIndex).close();
-
                     bufferedReaders.remove(nextIndex);
                 }
             }
-
         } finally {
             if (options.getSortingMode().equalsIgnoreCase("-d")) {
                 reverseFile(outputFile);
@@ -88,6 +81,12 @@ public class FileReaderLiner {
         }
     }
 
+    /**
+     * sort method
+     * - searches for a value that satisfies sort mode and returns its index
+     * @param tempLines     - a list of the "top" values from each file
+     * @return nextIndex    - the value of the next index
+     */
     private int sort(List<String> tempLines) {
 
         String nf, nt;
@@ -110,7 +109,6 @@ public class FileReaderLiner {
                     }
                 } catch (NumberFormatException ignored) {
                 }
-
             } else {
 
                 if (MyComparator.compare(nf, nt) > 0) {
@@ -118,15 +116,13 @@ public class FileReaderLiner {
                     nextFileLine = tempLines.get(i);
                 }
             }
-
         }
         return nextIndex;
     }
 
-
     /**
-     * Метод reverseFile - выполняет "переворот" файла при сортировки по убыванию (-d)
-     * @param outputFile   - имя выходного файла
+     * reverseFile method - performs a "flip" of the file when sorting in descending order (-d)
+     * @param outputFile - the name of the output file
      */
     private void reverseFile(File outputFile) throws IOException {
 

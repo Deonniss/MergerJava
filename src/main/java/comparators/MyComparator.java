@@ -1,7 +1,7 @@
 package comparators;
 
 /**
- * Класс MyComparator - сравнивает объекты
+ * MyComparator class-compares objects
  */
 public class MyComparator {
 

@@ -8,8 +8,8 @@ package parser;
 public class ParserInt {
 
     /**
-     * Метод parseInteger - парсит String в Integer
-     * @param value - String значение, которое нужно преобразовать в Integer
+     * parseInteger method - parses a String into an Integer
+     * @param value - String value that needs to be converted to an Integer
      * @return Integer
      */
     public static Integer parseInteger(String value) {
@@ -21,8 +21,8 @@ public class ParserInt {
     }
 
     /**
-     * Метод isDigit - проверяет строку на число
-     * @param s - String значение, которое проходит проверку на число
+     * isDigit method - checks the string for a number
+     * @param s - String value that passes the number check
      * @return boolean
      */
     private static boolean isDigit(String s) throws NumberFormatException {

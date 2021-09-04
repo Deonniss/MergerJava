@@ -1,10 +1,10 @@
 package option;
 
 /**
- * Класс Options - хранит все аргументы для выполнения программы
- * String outputFile  - имя выходного файла
- * String sortingMode - режим сортировки (-a -d)(по умолчанию -a)
- * String dataType    - тип данных (-i -s)(по умолчанию -i)
+ * Options class - stores all arguments for executing the program
+ * String outputFile    - the name of the output file
+ * String sortingMode   - sorting mode (-a -d)(default -a)
+ * String dataType      - data type (-i -s)(default is -i)
  */
 public class Options {
 
